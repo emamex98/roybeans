@@ -63,7 +63,7 @@ a b.light-color:hover { text-decoration: none; color: #EF0031;}
 
 b {  font-weight: 700; }
 
-img { width: 100%;}
+/* img { width: 100%;} */
 
 li { list-style: none; display: inline-block; line-height: 1.6; font-size: .9em; }
 
@@ -122,6 +122,12 @@ textarea:focus { outline-color: #EF0031; }
 
         h2 { font-size: 2.5em; }
 }
+
+.responsive {
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+      }
 
 
 /* ---------------------------------
