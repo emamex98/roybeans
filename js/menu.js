@@ -17,8 +17,8 @@ function addElementToMenu(title,linksTo) {
     ["INICIO", "index.html"],
     ["NOSOTROS", "02_about_us.html"],
     ["MENÚ", "03_menu.html"],
-    ["UBICACIÓN", "05_contact.html"],
-    ["PROMOCIONES", "04_BLOG.html"]
+    ["PROMOCIONES", "04_BLOG.html"],
+    ["UBICACIÓN", "05_contact.html"]
   ];
 
   for(i=0; i<menuItems.length; i++){
