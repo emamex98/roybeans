@@ -17,7 +17,7 @@ function addElementToMenu(title,linksTo) {
     ["INICIO", "index.html"],
     ["NOSOTROS", "02_about_us.html"],
     ["MENÚ", "03_menu.html"],
-    ["PROMOCIONES", "04_BLOG.html"],
+    ["PROMOCIONES", "04_promos.html"],
     ["UBICACIÓN", "05_contact.html"]
   ];
 
@@ -30,7 +30,7 @@ var linkCTA = document.createElement("a")
 var itemText = document.createTextNode('ORDENA: (33) 2456 9009');
 
 linkCTA.appendChild(itemText);
-linkCTA.href = 'tel:+523324569009l';
+linkCTA.href = 'tel:+523324569009';
 linkCTA.title = 'Ordenar';
 linkCTA.classList = 'plr-20 color-white btn-fill-primary';
 
