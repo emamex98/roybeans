@@ -40,9 +40,12 @@ var d = new Date();
 var n = d.getFullYear();
 
 var footer = document.getElementById("footerContent");
-var footerHTML = '<div class="row"> <div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary"><b>Horario:</b></p><p>Lunes a domingo:</p><p>1:00 - 11:00 pm.</p></div></div><div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary"><b>Dirección:</b></p><p>Avenida Santa Margarita 3740,<br>Col. Poniente, Zapopan, Jalisco.<br>C.P. 45136 - Local 20</p></div></div><div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary mb-10"><b>Contacto:</b></p><p>Teléfono: <a href="tel:+523324569009">(33) 2456 9009</a></p><p>Email: <a href="#">info@roybeans.com</a></p></div></div></div><div class="row"> <div class="col-lg-12"> <ul class="icon mt-30"> <li><a href="#"><i class="ion-social-facebook"></i></a></li><li><a href="#"><i class="ion-social-twitter"></i></a></li><li><a href="#"><i class="ion-social-instagram"></i></a></li></ul> </div></div><p class="color-light font-9 mt-50 mt-sm-30">Copyright &copy; ' + n + ' Roy Beans Pizza &amp; Salads | Desarrollado por <a href="http://ema.nuel.xyz">ema.nuel.xyz</a> | <a href="">Legal</a>'; 
-//This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>';
+var footerHTML = '<div class="row"> <div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary"><b>Horario:</b></p><p>Lunes a domingo:</p><p>1:00 - 11:00 pm.</p></div></div><div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary"><b>Dirección:</b></p><p>Avenida Santa Margarita 3740,<br>Col. Poniente, Zapopan, Jalisco.<br>C.P. 45136 - Local 20</p></div></div><div class="col-md-4"> <div class="pt-30"> <p class="underline-secondary mb-10"><b>Contacto:</b></p><p>Teléfono: <a href="tel:+523324569009">(33) 2456 9009</a></p><p>Email: <a href="#">info@roybeans.com</a></p></div></div></div><div class="row"> <div class="col-lg-12"> <ul class="icon mt-30"> <li><a href="#"><i class="ion-social-facebook"></i></a></li><li><a href="#"><i class="ion-social-twitter"></i></a></li><li><a href="#"><i class="ion-social-instagram"></i></a></li></ul> </div></div><p class="color-light font-9 mt-50 mt-sm-30">Copyright &copy; ' + n + ' Roy Beans Pizza &amp; Salads | Desarrollado por <a href="http://ema.nuel.xyz">ema.nuel.xyz</a> | <a href="07_legal.html">Legal</a>'; 
 footer.innerHTML = footerHTML;
+
+function legal(){
+  console.log('hello');
+}
 
 /*
 <h6><a class="plr-20 color-white btn-fill-primary" href="tel:+523324569009">ORDENA: (33) 2456 9009</a></h6>
