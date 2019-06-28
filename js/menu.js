@@ -26,16 +26,25 @@ function addElementToMenu(title,linksTo) {
       addElementToMenu(menuItems[i][0], menuItems[i][1]);
   }
 
-var btCTA = document.getElementById("cta-text");
-var linkCTA = document.createElement("a")
-var itemText = document.createTextNode('ORDENA: (33) 2456 9009');
+var linksOrder = [
+  document.getElementById("rappi"),
+  document.getElementById("uber"),
+  document.getElementById("sindel"),
+  document.getElementById("call")
+]
 
-linkCTA.appendChild(itemText);
-linkCTA.href = 'tel:+523324569009';
-linkCTA.title = 'Ordenar';
-linkCTA.classList = 'plr-20 color-white btn-fill-primary';
+// Rappi
+linksOrder[0].href = "https://www.rappi.com.mx/restaurantes/roy-beans---valle-real";
+// Uber
+linksOrder[1].href = "https://u.ubereats.com/en-MX/guadalajara/food-delivery/roy-bean-s/yGQm_HrRSq-nAKFuSky_xw/";
+// SinDelantal
+linksOrder[2].href = "https://www.sindelantal.mx/delivery/zapopan-jal/roy-beans-valle-real";
+// Llamar
+linksOrder[3].href = "tel:+523324569009";
 
-btCTA.appendChild(linkCTA);
+for(i=0; i<linksOrder.length-1; i++){
+  linksOrder[i].setAttribute("target", "_blank");
+}
 
 var d = new Date();
 var n = d.getFullYear();

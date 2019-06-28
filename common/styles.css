@@ -191,6 +191,17 @@ header .logo img {
         width: auto;
 }
 
+header .order {
+        float: center;
+        height: 50px;
+        margin-right: 5px;
+}
+
+header .order img {
+        height: 100%;
+        width: auto;
+}
+
 header ul.main-menu > li > a {
         height: 100%;
         line-height: 70px;
